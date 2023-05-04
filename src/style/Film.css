@@ -1,0 +1,26 @@
+@import url('./normalize.css');
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--login-color)!important;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#main-container {
+  background: var(--white-color);
+  display: flex;
+  align-items: stretch;
+  justify-content: start;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 380px;
+  height: 450px;
+  box-shadow: 3px 3px 5px 6px var(--shadow-сolor);
+  padding: 25px 45px 25px 45px;
+}

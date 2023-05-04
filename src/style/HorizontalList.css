@@ -1,0 +1,20 @@
+.horizontal-list {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 1rem;
+}
+
+.horizontal-list::-webkit-scrollbar {
+    height: 0.5rem;
+}
+
+.horizontal-list::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 1rem;
+}
+
+.horizontal-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 1rem;
+}

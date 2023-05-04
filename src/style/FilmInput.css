@@ -1,0 +1,8 @@
+.input-card {
+    background-color: rgba(96, 143, 128, 0.94) !important;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
